@@ -1,0 +1,87 @@
+.hero{
+    position: relative;
+    padding-top: 170px;
+    background-image: url("../images/uf.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center right;
+    height:860px;
+    background-position-y: -180px;
+    background-position-x:calc(50% + 558px);
+
+}
+
+
+.hero__hello{
+    width: 447px;
+}
+
+.hero__title{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+    margin-bottom: 24px;
+}
+
+.hero__text{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 36px;
+
+}
+
+.hero__btn{
+    display: block;
+    padding: 8px 33px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 163px;
+    transition: opacity 0.3s;
+
+    &:hover{
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (max-width:702px){
+    .hero{
+        background-image: url("../images/mobile.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        width: 1010px;
+        height:550px ;
+    }
+
+ 
+    .hero__title{
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+    }
+    .hero__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .hero__btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
